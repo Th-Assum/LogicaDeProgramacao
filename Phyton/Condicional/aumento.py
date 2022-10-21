@@ -1,0 +1,25 @@
+salario = float(input("Digite o salario da pessoa: "))
+if salario <= 1000.00:
+    aumento = (salario * 20)/100
+    novoSalario = salario + aumento
+    print(f"Novo Salario = R${novoSalario:.2f}")
+    print(f"Aumento = R${aumento:.2f}")
+    print("Porcentagem = 20 %")
+elif salario <= 3000.00:
+    aumento = (salario * 15)/100
+    novoSalario = salario + aumento
+    print(f"Novo Salario = R${novoSalario:.2f}")
+    print(f"Aumento = R${aumento:.2f}")
+    print("Porcentagem = 15 %")
+elif salario <= 8000.00:
+    aumento = (salario * 10)/100
+    novoSalario = salario + aumento
+    print(f"Novo Salario = R${novoSalario:.2f}")
+    print(f"Aumento = R${aumento:.2f}")
+    print("Porcentagem = 10 %")
+else:
+    aumento = (salario * 5)/100
+    novoSalario = salario + aumento
+    print(f"Novo Salario = R${novoSalario:.2f}")
+    print(f"Aumento = R${aumento:.2f}")
+    print("Porcentagem = 5 %")
